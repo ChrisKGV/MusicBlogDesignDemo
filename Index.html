@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guitarcia Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1" alt="Guitarcia Music Blog"
+                        style="height: 40px;"> Guitarcia Music Blog
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="top-row">
+        <section class="categories">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Music Production Tips</a></li>
+                <li><a href="#">Artist Interviews</a></li>
+                <li><a href="#">Gear Reviews</a></li>
+            </ul>
+        </section>
+        <section class="search">
+            <form class="search-form">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </div>
+
+    <main class="main-content">
+        <section class="featured-post">
+            <article class="post">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04"
+                        alt="Music production equipment" class="post-image img-fluid">
+                    <figcaption>Capturing the essence of music production. Photo by Unsplash.</figcaption>
+                </figure>
+                <h3 class="post-title">5 Tips for Better Music Production</h3>
+                <!-- Post content -->
+                <a href="#" class="btn btn-success post-cta">Read More</a>
+            </article>
+        </section>
+
+        <section class="featured-post">
+            <article class="post">
+                <h3 class="post-title">7 Tips for Cleaner Guitar Recording</h3>
+                <img src="https://images.unsplash.com/photo-1564186763535-ebb21ef5277f" alt="Music production equipment"
+                    class="post-image img-fluid">
+                <figcaption>Caption for the second image.</figcaption>
+                <p class="post-excerpt">If you're just starting out with music production, it can be overwhelming. Here
+                    are 5 tips to help you improve your productions:</p>
+                <ul class="post-list">
+                    <li>Invest in quality headphones or monitors</li>
+                    <li>Learn how to EQ effectively</li>
+                    <li>Keep your mixes simple</li>
+                    <li>Use reference tracks</li>
+                    <li>Don't be afraid to experiment</li>
+                </ul>
+                <p class="post-excerpt">By following these tips, you'll be well on your way to creating better sounding
+                    music!</p>
+                <a href="#" class="btn btn-success post-cta">Read More</a>
+            </article>
+        </section>
+
+        <section class="featured-post">
+            <article class="post">
+                <h3 class="post-title">3 Tips for Mastering Effectively</h3>
+                <img src="https://images.unsplash.com/photo-1633933703119-5d25460ad829" alt="Music production equipment"
+                    class="post-image img-fluid">
+                <p class="post-excerpt">If you're just starting out with music production, it can be overwhelming.
+                    Here are 5 tips to help you improve your productions:</p>
+                <ul class="post-list">
+                    <li>Invest in quality headphones or monitors</li>
+                    <li>Learn how to EQ effectively</li>
+                    <li>Keep your mixes simple</li>
+                    <li>Use reference tracks</li>
+                    <li>Don't be afraid to experiment</li>
+                </ul>
+                <p class="post-excerpt">By following these tips, you'll be well on your way to creating better
+                    sounding music!</p>
+                <a href="#" class="btn btn-success post-cta">Read More</a>
+            </article>
+        </section>
+
+        <section class="post-list">
+            <article class="post">
+                <h3 class="post-title">The Importance of Music Theory in Production</h3>
+                <img src="https://images.unsplash.com/photo-1488376739361-ed24c9beb6d0" alt="Music theory books"
+                    class="post-image img-fluid">
+                <p class="post-excerpt">If you want to take your music production to the next level, it's important
+                    to have a solid understanding of music theory. Here's why:</p>
+                <ul class="post-list">
+                    <li>Music theory can help you create more interesting chord progressions and melodies</li>
+                    <li>Understanding scales and modes can help you write in different genres and styles</li>
+                    <li>Music theory can help you communicate more effectively with other musicians and producers
+                    </li>
+                </ul>
+                <p class="post-excerpt">So if you haven't already, consider taking some time to study music theory!
+                </p>
+                <a href="#" class="btn btn-success post-cta">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <section class="newsletter">
+        <form class="newsletter-form">
+            <label for="email">Subscribe to our newsletter:</label>
+            <input type="email" id="email" placeholder="Enter your email address">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <footer class="footer bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About</h5>
+                    <p>Music Production Blog shares the latest tips, gear reviews, and interviews with artists.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Articles</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@musicblog.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
